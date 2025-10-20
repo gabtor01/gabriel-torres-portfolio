@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ensure that the system has finished initializing critical services and hardware
+# Wait for system initialization
 sleep 10
 # Ensure that the Jetson operates at full capacity
 sudo /usr/bin/jetson_clocks

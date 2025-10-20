@@ -1,5 +1,8 @@
 # Jetson Nano Build and Flash
 Bring-up and kernel rebuild process for the **NVIDIA Jetson Nano 4GB Developer Kit** using **SDK Manager**, **Docker** and **cross-compilation** with the Linaro GCC toolchain.
+
+![Embedded system](docs/embedded-system.JPG)
+
 ## Overview
 - Flashing Jetson Nano OS via SDK Manager (Docker container).
 - Cross-compiling the Linux 4.9-tegra kernel using Linaro GCC 7.3.1.
@@ -21,8 +24,7 @@ Bring-up and kernel rebuild process for the **NVIDIA Jetson Nano 4GB Developer K
 ## Structure
 `jetson-nano-build-and-flash/`  
 ├── `scripts/` – Flashing and build automation  
-├── `docs/` – Logs, UART captures, results  
-├── `configs/` – Environment and serial configs  
+├── `docs/` – Logs, UART captures, results    
 └── `README.md`
 ## Validation
 | Check | Command | Output |
