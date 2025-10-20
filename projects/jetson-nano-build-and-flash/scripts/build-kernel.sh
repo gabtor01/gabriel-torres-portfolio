@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Source the environment variables
 source ../config/env-setup.sh
+# Alternatively they can be added to bashrc instead of using source in every build with the command:
+# grep -qxF "source $HOME/config/env-setup.sh" ~/.bashrc || echo "source $HOME/config/env-setup.sh" >> ~/.bashrc
 
 mkdir -p "$TEGRA_KERNEL_OUT" "$TEGRA_MODULES_OUT"
 cd "$L4T/sources"
