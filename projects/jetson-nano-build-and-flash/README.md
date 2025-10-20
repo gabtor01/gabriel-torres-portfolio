@@ -24,7 +24,7 @@ Bring-up and kernel rebuild process for the **NVIDIA Jetson Nano 4GB Developer K
 ## Structure
 `jetson-nano-build-and-flash/`  
 ├── `scripts/` – Flashing and build automation  
-├── `docs/` – Logs, UART captures, results
+├── `docs/` – Logs, UART captures, results  
 ├── `config/` – Environment and serial configs     
 └── `README.md`
 ## Validation
