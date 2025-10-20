@@ -1,6 +1,5 @@
 /media/
 *.img
-*.log
 /rootfs/
 build/
 *.tar.xz
