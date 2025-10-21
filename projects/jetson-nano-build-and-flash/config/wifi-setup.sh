@@ -4,7 +4,7 @@
 # Wait for system initialization
 sleep 5
 # Bring up the Wi-Fi interface
-INTERFACE="wlo1"  # need to be adjusted according the case 
+INTERFACE="wlo1"  # need to be adjusted according the case check interfaces with iwconfig
 sudo ip link set $INTERFACE up
 echo "Wi-Fi interface $INTERFACE is up"
 
@@ -12,7 +12,7 @@ echo "Wi-Fi interface $INTERFACE is up"
 echo "Scanning for Wi-Fi networks..."
 sudo iwlist $INTERFACE scan | grep ESSID
 
-# Connect to a Wi-Fi network (SSID and PASSWORD need to be changed)
+# Connect to a Wi-Fi network (SSID and PASSWORD need to be changed according the case)
 SSID="SSID"
 PASSWORD="PASSWORD"
 echo "Connecting to $SSID..."

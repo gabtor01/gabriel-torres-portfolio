@@ -1,0 +1,971 @@
+nvidia@gabriel-G3-3579:~$ bash scripts/backup-and-flash-built.sh 
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/source' -> 'rootfs/lib/modules/4.9.337-tegra/source'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.builtin' -> 'rootfs/lib/modules/4.9.337-tegra/modules.builtin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.dep' -> 'rootfs/lib/modules/4.9.337-tegra/modules.dep'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.dep.bin' -> 'rootfs/lib/modules/4.9.337-tegra/modules.dep.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.alias' -> 'rootfs/lib/modules/4.9.337-tegra/modules.alias'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.alias.bin' -> 'rootfs/lib/modules/4.9.337-tegra/modules.alias.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.softdep' -> 'rootfs/lib/modules/4.9.337-tegra/modules.softdep'
+removed 'rootfs/lib/modules/4.9.337-tegra/build'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/build' -> 'rootfs/lib/modules/4.9.337-tegra/build'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.order' -> 'rootfs/lib/modules/4.9.337-tegra/modules.order'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.symbols' -> 'rootfs/lib/modules/4.9.337-tegra/modules.symbols'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.symbols.bin' -> 'rootfs/lib/modules/4.9.337-tegra/modules.symbols.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.builtin.bin' -> 'rootfs/lib/modules/4.9.337-tegra/modules.builtin.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/modules.devname' -> 'rootfs/lib/modules/4.9.337-tegra/modules.devname'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/authenc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/authenc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/authencesn.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/authencesn.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/deflate.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/deflate.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/des_generic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/des_generic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/md4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/md4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/md5.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/md5.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/michael_mic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/michael_mic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/tcrypt.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/tcrypt.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/crypto/xor.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/crypto/xor.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bcma/bcma.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bcma/bcma.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/block/nbd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/block/nbd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/block/zram/zram.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/block/zram/zram.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/ath3k.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/ath3k.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/bcm203x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/bcm203x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/bfusb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/bfusb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/bpa10x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/bpa10x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btbcm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btbcm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btintel.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btintel.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btmrvl.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btmrvl.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btmrvl_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btmrvl_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btqca.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btqca.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btrtl.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btrtl.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btusb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/btusb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/hci_uart.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/hci_uart.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/hci_vhci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/hci_vhci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/realtek/rtk_btusb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/bluetooth/realtek/rtk_btusb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/char/hw_random/cavium-rng-vf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/char/hw_random/cavium-rng-vf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/char/hw_random/cavium-rng.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/char/hw_random/cavium-rng.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/char/hw_random/rng-core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/char/hw_random/rng-core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/gpu/drm/tegra_udrm/tegra-udrm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/gpu/drm/tegra_udrm/tegra-udrm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/gpu/nvgpu/nvgpu.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/gpu/nvgpu/nvgpu.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-alps.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-alps.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-appleir.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-appleir.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-aureal.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-aureal.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-belkin.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-belkin.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-betopff.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-betopff.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cherry.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cherry.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-chicony.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-chicony.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cmedia.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cmedia.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-corsair.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-corsair.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cp2112.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cp2112.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cypress.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-cypress.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-elo.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-elo.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-ezkey.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-ezkey.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-gembird.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-gembird.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-gfrm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-gfrm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-gt683r.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-gt683r.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-icade.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-icade.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-jarvis-remote.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-jarvis-remote.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-kensington.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-kensington.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-led.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-led.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-lenovo.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-lenovo.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-logitech-dj.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-logitech-dj.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-logitech-hidpp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-logitech-hidpp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-logitech.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-logitech.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-microsoft.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-microsoft.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-monterey.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-monterey.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-penmount.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-penmount.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-plantronics.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-plantronics.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-raven.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-raven.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-rmi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-rmi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-sensor-custom.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-sensor-custom.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-sensor-hub.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-sensor-hub.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-steelseries.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-steelseries.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-xinmo.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/hid/hid-xinmo.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/algos/i2c-algo-pca.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/algos/i2c-algo-pca.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ali1535.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ali1535.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ali1563.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ali1563.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ali15x3.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ali15x3.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-amd756.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-amd756.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-amd8111.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-amd8111.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-cadence.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-cadence.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-cbus-gpio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-cbus-gpio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-designware-core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-designware-core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-designware-pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-designware-pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-designware-platform.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-designware-platform.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-diolan-u2c.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-diolan-u2c.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-emev2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-emev2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-gpio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-gpio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-i801.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-i801.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-isch.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-isch.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-nforce2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-nforce2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-nomadik.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-nomadik.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ocores.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-ocores.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-pca-platform.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-pca-platform.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-piix4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-piix4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-rk3x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-rk3x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-simtec.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-simtec.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-sis630.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-sis630.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-tegra-slave.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-tegra-slave.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-tegra194-slave.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-tegra194-slave.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-viapro.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/busses/i2c-viapro.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/i2c-slave-eeprom.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/i2c-slave-eeprom.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/i2c-smbus.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/i2c-smbus.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/i2c/i2c-stub.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/i2c/i2c-stub.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/iio/accel/hid-sensor-accel-3d.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/iio/accel/hid-sensor-accel-3d.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/iio/common/hid-sensors/hid-sensor-iio-common.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/iio/common/hid-sensors/hid-sensor-iio-common.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/iio/common/hid-sensors/hid-sensor-trigger.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/iio/common/hid-sensors/hid-sensor-trigger.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/iio/gyro/hid-sensor-gyro-3d.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/iio/gyro/hid-sensor-gyro-3d.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_cm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_cm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_umad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_umad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_uverbs.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/ib_uverbs.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/iw_cm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/iw_cm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/rdma_cm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/rdma_cm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/rdma_ucm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/core/rdma_ucm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/hw/mlx4/mlx4_ib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/hw/mlx4/mlx4_ib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/hw/mlx5/mlx5_ib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/hw/mlx5/mlx5_ib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/hw/mthca/ib_mthca.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/hw/mthca/ib_mthca.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/sw/rdmavt/rdmavt.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/sw/rdmavt/rdmavt.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/sw/rxe/rdma_rxe.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/sw/rxe/rdma_rxe.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/ulp/ipoib/ib_ipoib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/ulp/ipoib/ib_ipoib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/ulp/srp/ib_srp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/infiniband/ulp/srp/ib_srp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/input-polldev.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/input-polldev.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/adp5588-keys.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/adp5588-keys.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/adp5589-keys.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/adp5589-keys.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/atkbd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/atkbd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/bcm-keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/bcm-keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/cap11xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/cap11xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/gpio_keys_polled.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/gpio_keys_polled.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/lkkbd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/lkkbd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/lm8323.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/lm8323.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/lm8333.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/lm8333.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/matrix_keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/matrix_keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/max7359_keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/max7359_keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/mcs_touchkey.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/mcs_touchkey.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/mpr121_touchkey.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/mpr121_touchkey.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/newtonkbd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/newtonkbd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/omap4-keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/omap4-keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/opencores-kbd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/opencores-kbd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/qt1070.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/qt1070.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/qt2160.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/qt2160.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/samsung-keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/samsung-keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/stowaway.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/stowaway.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/tca6416-keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/tca6416-keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/tca8418_keypad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/tca8418_keypad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/tegra-kbc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/tegra-kbc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/xtkbd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/keyboard/xtkbd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/matrix-keymap.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/matrix-keymap.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/appletouch.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/appletouch.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/bcm5974.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/bcm5974.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/cyapatp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/cyapatp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/gpio_mouse.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/gpio_mouse.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/sermouse.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/sermouse.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/synaptics_i2c.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/synaptics_i2c.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/synaptics_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/synaptics_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/vsxxxaa.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/mouse/vsxxxaa.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/input/serio/libps2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/input/serio/libps2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/leds/leds-bd2802.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/leds/leds-bd2802.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/common/v4l2-tpg/v4l2-tpg.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/common/v4l2-tpg/v4l2-tpg.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/imx185.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/imx185.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/imx185_v1.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/imx185_v1.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/imx274.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/imx274.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/ov5693.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/ov5693.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/tc358840.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/i2c/tc358840.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra-vivid/tegra-vivid.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra-vivid/tegra-vivid.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra/camera/tests/sensor_kernel_tests.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra/camera/tests/sensor_kernel_tests.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra/tpg/nvhost-vi-tpg-t19x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra/tpg/nvhost-vi-tpg-t19x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra/tpg/nvhost-vi-tpg.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/tegra/tpg/nvhost-vi-tpg.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/vivid/vivid.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/platform/vivid/vivid.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/cpia2/cpia2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/cpia2/cpia2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gl860/gspca_gl860.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gl860/gspca_gl860.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_benq.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_benq.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_conex.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_conex.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_cpia1.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_cpia1.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_dtcs033.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_dtcs033.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_etoms.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_etoms.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_finepix.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_finepix.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_jeilinj.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_jeilinj.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_jl2005bcd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_jl2005bcd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_kinect.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_kinect.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_konica.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_konica.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_main.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_main.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_mars.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_mars.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_mr97310a.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_mr97310a.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_nw80x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_nw80x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_ov519.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_ov519.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_ov534.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_ov534.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_ov534_9.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_ov534_9.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_pac207.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_pac207.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_pac7302.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_pac7302.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_pac7311.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_pac7311.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_se401.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_se401.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sn9c2028.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sn9c20x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sn9c20x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sonixb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sonixb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sonixj.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sonixj.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca1528.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca1528.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca500.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca500.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca501.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca501.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca505.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca505.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca506.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca506.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca508.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca508.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca561.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_spca561.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sq905.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sq905.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sq905c.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sq905c.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sq930x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sq930x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_stk014.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_stk014.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_stk1135.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_stk1135.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_stv0680.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_stv0680.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sunplus.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_sunplus.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_t613.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_t613.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_topro.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_topro.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_touptek.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_touptek.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_tv8532.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_tv8532.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_vc032x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_vc032x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_vicam.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_vicam.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_xirlink_cit.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_xirlink_cit.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_zc3xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/gspca_zc3xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/m5602/gspca_m5602.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/pwc/pwc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/pwc/pwc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/s2255/s2255drv.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/s2255/s2255drv.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/stkwebcam/stkwebcam.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/stkwebcam/stkwebcam.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/usbtv/usbtv.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/usbtv/usbtv.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/uvc/uvcvideo.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/uvc/uvcvideo.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/zr364xx/zr364xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/usb/zr364xx/zr364xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/v4l2-core/videobuf-core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/v4l2-core/videobuf-core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/media/v4l2-core/videobuf-vmalloc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/media/v4l2-core/videobuf-vmalloc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mfd/lpc_sch.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mfd/lpc_sch.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/misc/bluedroid_pm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/misc/bluedroid_pm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/misc/cb710/cb710.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/misc/cb710/cb710.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/misc/eeprom/eeprom_93cx6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/misc/eeprom/eeprom_93cx6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/misc/mods/mods.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/misc/mods/mods.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/misc/tifm_7xx1.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/misc/tifm_7xx1.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/misc/tifm_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/misc/tifm_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/cb710-mmc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/cb710-mmc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/mmc_spi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/mmc_spi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/mtk-sd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/mtk-sd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/of_mmc_spi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/of_mmc_spi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/tifm_sd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/tifm_sd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/toshsd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/toshsd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/usdhi6rol0.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/usdhi6rol0.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/ushc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/ushc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/via-sdmmc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/via-sdmmc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/vub300.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mmc/host/vub300.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/mtd/ubi/ubi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/mtd/ubi/ubi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/c_can/c_can.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/c_can/c_can.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/can-dev.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/can-dev.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/cc770/cc770.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/cc770/cc770.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/cc770/cc770_isa.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/cc770/cc770_isa.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/cc770/cc770_platform.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/cc770/cc770_platform.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/m_can/m_can.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/m_can/m_can.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/mttcan/native/mttcan.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/mttcan/native/mttcan.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/ems_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/ems_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/kvaser_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/kvaser_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/plx_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/plx_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/sja1000.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/sja1000.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/sja1000_isa.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/sja1000_isa.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/sja1000_platform.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/sja1000/sja1000_platform.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/slcan.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/slcan.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/softing/softing.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/softing/softing.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/spi/mcp251x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/spi/mcp251x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/ems_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/ems_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/esd_usb2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/esd_usb2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/gs_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/gs_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/kvaser_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/kvaser_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/peak_usb/peak_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/peak_usb/peak_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/usb_8dev.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/usb/usb_8dev.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/can/vcan.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/can/vcan.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/3com/typhoon.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/3com/typhoon.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/8390/8390.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/8390/8390.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/8390/ne2k-pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/8390/ne2k-pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/agere/et131x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/agere/et131x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/alteon/acenic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/alteon/acenic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/altera/altera_tse.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/altera/altera_tse.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/aquantia/atlantic/atlantic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/aquantia/atlantic/atlantic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/alx/alx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/alx/alx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atl1c/atl1c.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atl1c/atl1c.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atl1e/atl1e.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atl1e/atl1e.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atlx/atl1.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atlx/atl1.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atlx/atl2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/atheros/atlx/atl2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/b44.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/b44.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/bnx2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/bnx2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/bnx2x/bnx2x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/bnx2x/bnx2x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/cnic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/broadcom/cnic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/brocade/bna/bna.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/brocade/bna/bna.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/liquidio/liquidio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/liquidio/liquidio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/nicpf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/nicpf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/nicvf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/nicvf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/thunder_bgx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/thunder_bgx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/thunder_xcv.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cavium/thunder/thunder_xcv.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb/cxgb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb/cxgb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb3/cxgb3.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb3/cxgb3.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb4/cxgb4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb4/cxgb4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb4vf/cxgb4vf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/chelsio/cxgb4vf/cxgb4vf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cisco/enic/enic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/cisco/enic/enic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/dlink/dl2k.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/dlink/dl2k.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/emulex/benet/be2net.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/emulex/benet/be2net.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/hp/hp100.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/hp/hp100.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/e100.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/e100.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/e1000/e1000.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/e1000/e1000.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/fm10k/fm10k.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/fm10k/fm10k.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/i40e/i40e.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/i40e/i40e.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/i40evf/i40evf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/i40evf/i40evf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/ixgb/ixgb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/ixgb/ixgb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/ixgbevf/ixgbevf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/intel/ixgbevf/ixgbevf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/jme.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/jme.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/marvell/skge.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/marvell/skge.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/marvell/sky2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/marvell/sky2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/mellanox/mlx4/mlx4_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/mellanox/mlx4/mlx4_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/mellanox/mlx5/core/mlx5_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/mellanox/mlxsw/mlxsw_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/mellanox/mlxsw/mlxsw_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/natsemi/natsemi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/natsemi/natsemi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/natsemi/ns83820.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/natsemi/ns83820.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/neterion/s2io.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/neterion/s2io.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/neterion/vxge/vxge.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/neterion/vxge/vxge.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/netronome/nfp/nfp_netvf.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/netronome/nfp/nfp_netvf.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/packetengines/hamachi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/packetengines/hamachi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/packetengines/yellowfin.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/packetengines/yellowfin.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/netxen/netxen_nic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/netxen/netxen_nic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qed/qed.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qed/qed.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qede/qede.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qede/qede.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qla3xxx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qla3xxx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qlcnic/qlcnic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qlcnic/qlcnic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qlge/qlge.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qlogic/qlge/qlge.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qualcomm/emac/qcom-emac.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qualcomm/emac/qcom-emac.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qualcomm/qcaspi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/qualcomm/qcaspi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/realtek/8139cp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/realtek/8139cp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/realtek/8139too.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/realtek/8139too.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/samsung/sxgbe/samsung-sxgbe.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/samsung/sxgbe/samsung-sxgbe.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/sfc/sfc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/sfc/sfc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/stmicro/stmmac/dwmac-generic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac-platform.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac-platform.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/ethernet/stmicro/stmmac/stmmac.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/macvlan.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/macvlan.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/macvtap.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/macvtap.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/phy/mdio-cavium.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/phy/mdio-cavium.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/phy/mdio-thunder.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/phy/mdio-thunder.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/phy/microchip.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/phy/microchip.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/catc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/catc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/cx82310_eth.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/cx82310_eth.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/dm9601.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/dm9601.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/gl620a.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/gl620a.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/kaweth.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/kaweth.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/lan78xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/lan78xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/mcs7830.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/mcs7830.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/pegasus.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/pegasus.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/plusb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/plusb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/rndis_host.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/rndis_host.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/rtl8150.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/rtl8150.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/smsc75xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/smsc75xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/smsc95xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/smsc95xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/sr9700.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/sr9700.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/sr9800.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/usb/sr9800.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/veth.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/veth.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ar5523/ar5523.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ar5523/ar5523.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath10k/ath10k_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath10k/ath10k_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath10k/ath10k_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath10k/ath10k_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath6kl/ath6kl_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath6kl/ath6kl_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k_htc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k_htc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/carl9170/carl9170.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/carl9170/carl9170.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/wcn36xx/wcn36xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/wil6210/wil6210.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ath/wil6210/wil6210.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/atmel/at76c50x-usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/atmel/at76c50x-usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/atmel/atmel.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/atmel/atmel.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/bcmdhd/bcmdhd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/bcmdhd_pcie/bcmdhd_pcie.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/bcmdhd_pcie/bcmdhd_pcie.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/broadcom/b43/b43.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/broadcom/b43/b43.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/broadcom/b43legacy/b43legacy.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/broadcom/b43legacy/b43legacy.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intel/iwlwifi/dvm/iwldvm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intel/iwlwifi/iwlwifi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intel/iwlwifi/iwlwifi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intel/iwlwifi/mvm/iwlmvm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intel/iwlwifi/mvm/iwlmvm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/orinoco/orinoco.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/orinoco/orinoco.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/p54/p54common.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/p54/p54common.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/p54/p54pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/p54/p54pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/p54/p54usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/intersil/p54/p54usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_pcie.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwifiex/mwifiex_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwl8k.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/marvell/mwl8k.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/mediatek/mt7601u/mt7601u.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2500usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2500usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800lib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800lib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800mmio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2800usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00lib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00mmio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00mmio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt2x00usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt73usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ralink/rt2x00/rt73usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8812au/rtl8812au.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8812au/rtl8812au.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8814au/rtl8814au.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8814au/rtl8814au.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8821au/rtl8821au.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8821au/rtl8821au.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8821cu/rtl8821cu.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8821cu/rtl8821cu.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8822bu/rtl8822bu.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8822bu/rtl8822bu.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8822ce/rtl8822ce.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8822ce/rtl8822ce.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/btcoexist/btcoexist.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/btcoexist/btcoexist.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8188ee/rtl8188ee.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8188ee/rtl8188ee.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192ce/rtl8192ce.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rtl8192cu.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rtl8192cu.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192de/rtl8192de.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192de/rtl8192de.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192ee/rtl8192ee.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192ee/rtl8192ee.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192se/rtl8192se.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8192se/rtl8192se.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8723ae/rtl8723ae.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8723ae/rtl8723ae.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8723be/rtl8723be.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8723be/rtl8723be.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8723com/rtl8723-common.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8723com/rtl8723-common.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/rtl8821ae.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl8821ae/rtl8821ae.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtl_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/rsi/rsi_91x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/rsi/rsi_91x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/rsi/rsi_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/rsi/rsi_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/rsi/rsi_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/rsi/rsi_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/st/cw1200/cw1200_core.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/st/cw1200/cw1200_core.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/st/cw1200/cw1200_wlan_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/st/cw1200/cw1200_wlan_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl1251/wl1251.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl1251/wl1251.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl1251/wl1251_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl1251/wl1251_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl12xx/wl12xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl12xx/wl12xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl18xx/wl18xx.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wl18xx/wl18xx.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wlcore/wlcore.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wlcore/wlcore.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wlcore/wlcore_sdio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/ti/wlcore/wlcore_sdio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/zydas/zd1201.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/zydas/zd1201.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/zydas/zd1211rw/zd1211rw.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/net/wireless/zydas/zd1211rw/zd1211rw.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/pci/pci-stub.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/pci/pci-stub.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/platform/tegra/bad.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/platform/tegra/bad.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/platform/tegra/nvadsp/nvadsp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/platform/tegra/nvadsp/nvadsp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/platform/tegra/tegra_cpu_sysfs.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/platform/tegra/tegra_cpu_sysfs.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/scsi/scsi_transport_srp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/scsi/scsi_transport_srp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-cadence.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-cadence.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-pxa2xx-pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-pxa2xx-pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-pxa2xx-platform.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-pxa2xx-platform.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-sc18is602.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-sc18is602.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-tle62x0.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-tle62x0.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-xcomm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-xcomm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-zynqmp-gqspi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spi-zynqmp-gqspi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/spi/spidev.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/spi/spidev.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/ssb/ssb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/ssb/ssb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8188eu/r8188eu.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8188eu/r8188eu.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtl8192e/r8192e_pci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtl8192e/r8192e_pci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib_crypt_ccmp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib_crypt_ccmp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib_crypt_tkip.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib_crypt_tkip.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib_crypt_wep.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192e/rtllib_crypt_wep.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192u/r8192u_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8192u/r8192u_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8712/r8712u.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/rtl8712/r8712u.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/staging/wlan-ng/prism2_usb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/staging/wlan-ng/prism2_usb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/thermal/userspace_alert.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/thermal/userspace_alert.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/uio/uio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/uio/uio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/class/cdc-acm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/class/cdc-acm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/class/cdc-wdm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/class/cdc-wdm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/class/usblp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/class/usblp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/common/ulpi.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/common/ulpi.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/image/mdc800.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/image/mdc800.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/image/microtek.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/image/microtek.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/appledisplay.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/appledisplay.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/cypress_cy7c63.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/cypress_cy7c63.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/cytherm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/cytherm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/emi26.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/emi26.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/emi62.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/emi62.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/idmouse.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/idmouse.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/ldusb.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/ldusb.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/usblcd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/usblcd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/usbsevseg.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/usbsevseg.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/usbtest.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/usbtest.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/yurex.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/misc/yurex.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/mon/usbmon.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/mon/usbmon.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/ch341.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/ch341.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/cp210x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/cp210x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/ftdi_sio.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/ftdi_sio.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/option.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/option.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/pl2303.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/pl2303.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/usb_wwan.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/serial/usb_wwan.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-alauda.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-alauda.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-cypress.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-cypress.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-datafab.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-datafab.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-eneub6250.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-eneub6250.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-freecom.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-freecom.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-isd200.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-isd200.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-jumpshot.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-jumpshot.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-karma.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-karma.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-onetouch.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-onetouch.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-realtek.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-realtek.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-sddr09.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-sddr09.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-sddr55.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-sddr55.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-usbat.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/usb/storage/ums-usbat.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/video/backlight/generic_bl.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/video/backlight/generic_bl.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/drivers/video/backlight/lcd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/drivers/video/backlight/lcd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/binfmt_misc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/binfmt_misc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/btrfs/btrfs.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/btrfs/btrfs.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/cifs/cifs.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/cifs/cifs.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/fuse/cuse.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/fuse/cuse.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/fuse/fuse.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/fuse/fuse.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/nfs_common/nfs_acl.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/nfs_common/nfs_acl.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/nfsd/nfsd.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/nfsd/nfsd.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/fs/overlayfs/overlay.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/fs/overlayfs/overlay.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/crc-itu-t.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/crc-itu-t.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/crc7.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/crc7.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/libcrc32c.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/libcrc32c.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/raid6/raid6_pq.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/raid6/raid6_pq.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/ts_bm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/ts_bm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/ts_fsm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/ts_fsm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/lib/ts_kmp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/lib/ts_kmp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/802/garp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/802/garp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/802/mrp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/802/mrp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/8021q/8021q.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/8021q/8021q.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/bluetooth/bnep/bnep.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/bluetooth/bnep/bnep.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/bridge/br_netfilter.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/bridge/br_netfilter.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/can/can-bcm.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/can/can-bcm.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/can/can-gw.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/can/can-gw.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/can/can-raw.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/can/can-raw.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/can/can.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/can/can.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/esp4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/esp4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/arp_tables.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/arp_tables.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/arpt_mangle.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/arpt_mangle.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/arptable_filter.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/arptable_filter.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ip_tables.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ip_tables.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_MASQUERADE.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_MASQUERADE.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_REJECT.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_REJECT.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_ah.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_ah.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_rpfilter.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/ipt_rpfilter.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_filter.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_filter.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_mangle.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_mangle.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_nat.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_nat.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_raw.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/iptable_raw.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_log_ipv4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_log_ipv4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_h323.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_h323.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_masquerade_ipv4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_masquerade_ipv4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_pptp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_pptp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/netfilter/nf_reject_ipv4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv4/tunnel4.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv4/tunnel4.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/ah6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/ah6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/esp6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/esp6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/ip6_tunnel.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/ip6_tunnel.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/ipcomp6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/ipcomp6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/mip6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/mip6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6_tables.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6_tables.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6t_MASQUERADE.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6t_MASQUERADE.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6t_REJECT.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6t_REJECT.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_filter.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_filter.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_mangle.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_mangle.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_nat.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_nat.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_raw.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/ip6table_raw.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_conntrack_ipv6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_conntrack_ipv6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_log_ipv6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_log_ipv6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_nat_ipv6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_nat_ipv6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_nat_masquerade_ipv6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_nat_masquerade_ipv6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_reject_ipv6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/netfilter/nf_reject_ipv6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/sit.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/sit.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/tunnel6.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/tunnel6.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_mode_beet.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_mode_beet.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_mode_transport.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_mode_transport.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_mode_tunnel.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_mode_tunnel.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_tunnel.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/ipv6/xfrm6_tunnel.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/irda/irda.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/irda/irda.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/mac80211/mac80211.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/mac80211/mac80211.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/ipvs/ip_vs.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/ipvs/ip_vs.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/ipvs/ip_vs_rr.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/ipvs/ip_vs_rr.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_amanda.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_amanda.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_broadcast.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_broadcast.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_ftp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_ftp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_h323.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_h323.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_irc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_irc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_netbios_ns.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_netbios_ns.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_netlink.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_netlink.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_pptp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_pptp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_dccp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_dccp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_gre.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_gre.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_sctp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_sctp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_udplite.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_proto_udplite.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_sane.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_sane.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_sip.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_sip.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_tftp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_conntrack_tftp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_log_common.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_log_common.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_amanda.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_amanda.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_ftp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_ftp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_irc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_irc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_proto_dccp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_proto_dccp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_proto_sctp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_proto_sctp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_proto_udplite.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_proto_udplite.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_redirect.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_redirect.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_sip.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_sip.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_tftp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nf_nat_tftp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink_acct.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink_acct.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink_log.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink_log.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink_queue.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/nfnetlink_queue.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/x_tables.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/x_tables.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_CHECKSUM.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_CHECKSUM.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_CLASSIFY.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_CLASSIFY.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_IDLETIMER.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_IDLETIMER.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_LOG.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_LOG.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_NFLOG.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_NFLOG.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_NFQUEUE.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_NFQUEUE.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_REDIRECT.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_REDIRECT.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_TCPMSS.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_TCPMSS.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_TPROXY.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_TPROXY.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_TRACE.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_TRACE.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_addrtype.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_addrtype.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_comment.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_comment.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_connbytes.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_connbytes.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_connlimit.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_connlimit.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_connmark.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_connmark.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_conntrack.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_conntrack.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_ecn.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_ecn.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_hashlimit.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_hashlimit.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_helper.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_helper.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_hl.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_hl.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_iprange.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_iprange.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_ipvs.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_ipvs.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_length.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_length.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_limit.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_limit.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_mac.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_mac.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_mark.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_mark.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_multiport.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_multiport.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_nat.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_nat.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_owner.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_owner.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_physdev.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_physdev.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_pkttype.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_pkttype.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_policy.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_policy.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_quota.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_quota.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_quota2.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_quota2.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_recent.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_recent.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_socket.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_socket.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_state.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_state.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_statistic.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_statistic.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_string.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_string.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_tcpudp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_tcpudp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_time.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_time.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_u32.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/netfilter/xt_u32.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/rxrpc/af-rxrpc.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/rxrpc/af-rxrpc.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/sunrpc/xprtrdma/rpcrdma.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/sunrpc/xprtrdma/rpcrdma.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/wireless/cfg80211.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/wireless/cfg80211.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/wireless/lib80211.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/wireless/lib80211.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/net/xfrm/xfrm_ipcomp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/net/xfrm/xfrm_ipcomp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/ac97_bus.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/ac97_bus.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/drivers/mpu401/snd-mpu401-uart.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/drivers/mpu401/snd-mpu401-uart.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/drivers/opl3/snd-opl3-lib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/drivers/opl3/snd-opl3-lib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/drivers/snd-aloop.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/drivers/snd-aloop.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/ac97/snd-ac97-codec.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/ac97/snd-ac97-codec.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/au88x0/snd-au8810.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/au88x0/snd-au8810.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/emu10k1/snd-emu10k1x.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/emu10k1/snd-emu10k1x.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/hda/snd-hda-intel.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/hda/snd-hda-intel.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/mixart/snd-mixart.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/mixart/snd-mixart.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/nm256/snd-nm256.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/nm256/snd-nm256.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/oxygen/snd-oxygen-lib.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/oxygen/snd-oxygen-lib.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/oxygen/snd-virtuoso.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/oxygen/snd-virtuoso.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-ad1889.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-ad1889.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-atiixp-modem.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-atiixp-modem.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-atiixp.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-atiixp.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-intel8x0.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-intel8x0.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-intel8x0m.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/snd-intel8x0m.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/trident/snd-trident.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/trident/snd-trident.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/pci/ymfpci/snd-ymfpci.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/pci/ymfpci/snd-ymfpci.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/modules/4.9.337-tegra/kernel/sound/synth/snd-util-mem.ko' -> 'rootfs/lib/modules/4.9.337-tegra/kernel/sound/synth/snd-util-mem.ko'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/acenic/tg1.bin' -> 'rootfs/lib/firmware/acenic/tg1.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/acenic/tg2.bin' -> 'rootfs/lib/firmware/acenic/tg2.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2x/bnx2x-e1-6.2.9.0.fw' -> 'rootfs/lib/firmware/bnx2x/bnx2x-e1-6.2.9.0.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2x/bnx2x-e1h-6.2.9.0.fw' -> 'rootfs/lib/firmware/bnx2x/bnx2x-e1h-6.2.9.0.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2x/bnx2x-e2-6.2.9.0.fw' -> 'rootfs/lib/firmware/bnx2x/bnx2x-e2-6.2.9.0.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2/bnx2-mips-09-6.2.1a.fw' -> 'rootfs/lib/firmware/bnx2/bnx2-mips-09-6.2.1a.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2/bnx2-rv2p-09-6.0.17.fw' -> 'rootfs/lib/firmware/bnx2/bnx2-rv2p-09-6.0.17.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2/bnx2-rv2p-09ax-6.0.17.fw' -> 'rootfs/lib/firmware/bnx2/bnx2-rv2p-09ax-6.0.17.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2/bnx2-mips-06-6.2.1.fw' -> 'rootfs/lib/firmware/bnx2/bnx2-mips-06-6.2.1.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/bnx2/bnx2-rv2p-06-6.0.15.fw' -> 'rootfs/lib/firmware/bnx2/bnx2-rv2p-06-6.0.15.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/cxgb3/t3b_psram-1.1.0.bin' -> 'rootfs/lib/firmware/cxgb3/t3b_psram-1.1.0.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/cxgb3/t3c_psram-1.1.0.bin' -> 'rootfs/lib/firmware/cxgb3/t3c_psram-1.1.0.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/cxgb3/ael2005_opt_edc.bin' -> 'rootfs/lib/firmware/cxgb3/ael2005_opt_edc.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/cxgb3/ael2005_twx_edc.bin' -> 'rootfs/lib/firmware/cxgb3/ael2005_twx_edc.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/cxgb3/ael2020_twx_edc.bin' -> 'rootfs/lib/firmware/cxgb3/ael2020_twx_edc.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/e100/d101m_ucode.bin' -> 'rootfs/lib/firmware/e100/d101m_ucode.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/e100/d101s_ucode.bin' -> 'rootfs/lib/firmware/e100/d101s_ucode.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/e100/d102e_ucode.bin' -> 'rootfs/lib/firmware/e100/d102e_ucode.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/yamaha/ds1_ctrl.fw' -> 'rootfs/lib/firmware/yamaha/ds1_ctrl.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/yamaha/ds1_dsp.fw' -> 'rootfs/lib/firmware/yamaha/ds1_dsp.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/yamaha/ds1e_ctrl.fw' -> 'rootfs/lib/firmware/yamaha/ds1e_ctrl.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/3com/typhoon.bin' -> 'rootfs/lib/firmware/3com/typhoon.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi26/loader.fw' -> 'rootfs/lib/firmware/emi26/loader.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi26/firmware.fw' -> 'rootfs/lib/firmware/emi26/firmware.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi26/bitstream.fw' -> 'rootfs/lib/firmware/emi26/bitstream.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi62/loader.fw' -> 'rootfs/lib/firmware/emi62/loader.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi62/bitstream.fw' -> 'rootfs/lib/firmware/emi62/bitstream.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi62/spdif.fw' -> 'rootfs/lib/firmware/emi62/spdif.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/emi62/midi.fw' -> 'rootfs/lib/firmware/emi62/midi.fw'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/kaweth/new_code.bin' -> 'rootfs/lib/firmware/kaweth/new_code.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/kaweth/trigger_code.bin' -> 'rootfs/lib/firmware/kaweth/trigger_code.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/kaweth/new_code_fix.bin' -> 'rootfs/lib/firmware/kaweth/new_code_fix.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/kaweth/trigger_code_fix.bin' -> 'rootfs/lib/firmware/kaweth/trigger_code_fix.bin'
+'/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/sources/modules/lib/firmware/cpia2/stv0672_vp4.bin' -> 'rootfs/lib/firmware/cpia2/stv0672_vp4.bin'
+###############################################################################
+# L4T BSP Information:
+# R32 , REVISION: 7.6
+###############################################################################
+# Target Board Information:
+# Name: jetson-nano-devkit, Board Family: t210ref, SoC: Tegra 210, 
+# OpMode: production, Boot Authentication: , 
+# Disk encryption: disabled ,
+###############################################################################
+./tegraflash.py --chip 0x21 --applet "/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/nvtboot_recovery.bin" --skipuid --cmd "dump eeprom boardinfo cvm.bin" 
+Welcome to Tegra Flash
+version 1.0.0
+Type ? or help for help and q or quit to exit
+Use ! to execute system commands
+ 
+[   0.0029 ] Generating RCM messages
+[   0.0051 ] tegrarcm --listrcm rcm_list.xml --chip 0x21 0 --download rcm /home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/nvtboot_recovery.bin 0 0
+[   0.0062 ] RCM 0 is saved as rcm_0.rcm
+[   0.0072 ] RCM 1 is saved as rcm_1.rcm
+[   0.0072 ] List of rcm files are saved in rcm_list.xml
+[   0.0072 ] 
+[   0.0072 ] Signing RCM messages
+[   0.0096 ] tegrasign --key None --list rcm_list.xml --pubkeyhash pub_key.key
+[   0.0104 ] Assuming zero filled SBK key
+[   0.0158 ] 
+[   0.0159 ] Copying signature to RCM mesages
+[   0.0181 ] tegrarcm --chip 0x21 0 --updatesig rcm_list_signed.xml
+[   0.0194 ] 
+[   0.0195 ] Boot Rom communication
+[   0.0217 ] tegrarcm --chip 0x21 0 --rcm rcm_list_signed.xml --skipuid
+[   0.0225 ] RCM version 0X210001
+[   0.1248 ] Boot Rom communication completed
+[   1.1319 ] 
+[   1.1322 ] dump EEPROM info
+[   1.1376 ] tegrarcm --oem platformdetails eeprom /home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/cvm.bin
+[   1.1408 ] Applet version 00.01.0000
+[   1.2175 ] Saved platform info in /home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/cvm.bin
+[   1.2947 ] 
+[   1.2982 ] tegrarcm --reboot recovery
+[   1.3002 ] Applet version 00.01.0000
+[   1.3781 ] 
+Board ID(3448) version(402) 
+copying bctfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/BCT/P3448_A00_lpddr4_204Mhz_P987.cfg)... done.
+copying bootloader(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/cboot.bin)... done.
+copying initrd(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/l4t_initrd.img)... done.
+Making Boot image... done.
+Existing sosfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/nvtboot_recovery.bin) reused.
+copying tegraboot(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/nvtboot.bin)... done.
+copying cpu_bootloader(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/cboot.bin)... done.
+copying bpffile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/sc7entry-firmware.bin)... done.
+copying wb0boot(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/warmboot.bin)... done.
+Existing tosfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/tos-mon-only.img) reused.
+Existing eksfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/eks.img) reused.
+./flash.sh: line 2663: [: : integer expression expected
+copying dtbfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/kernel/dtb/tegra210-p3448-0000-p3449-0000-b00.dtb)... done.
+Copying nv_boot_control.conf to rootfs
+	populating kernel to rootfs... done.
+	populating initrd to rootfs... done.
+	populating kernel_tegra210-p3448-0000-p3449-0000-b00.dtb to rootfs... done.
+Making system.img... 
+	populating rootfs from /home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/rootfs ... 	populating /boot/extlinux/extlinux.conf ... done.
+	Sync'ing system.img ... done.
+	Converting RAW image to Sparse image... done.
+system.img built successfully. 
+Existing tbcfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/nvtboot_cpu.bin) reused.
+copying tbcdtbfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/kernel/dtb/tegra210-p3448-0000-p3449-0000-b00.dtb)... done.
+copying cfgfile(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/cfg/flash_l4t_t210_max-spi_sd_p3448.xml) to flash.xml... done.
+copying flasher(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/t210ref/cboot.bin)... done.
+Existing flashapp(/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/tegraflash.py) reused.
+./tegraflash.py --bl cboot.bin --bct  P3448_A00_lpddr4_204Mhz_P987.cfg --odmdata 0xa4000 --bldtb kernel_tegra210-p3448-0000-p3449-0000-b00.dtb --applet nvtboot_recovery.bin  --cmd "flash; reboot"  --cfg flash.xml --chip 0x21    --bins "EBT cboot.bin; DTB tegra210-p3448-0000-p3449-0000-b00.dtb" 
+saving flash command in /home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/flashcmd.txt
+saving Windows flash command to /home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/bootloader/flash_win.bat
+assign_value: crc-flash.xml.bin 1 65520 1
+printf '\x1' | dd of=crc-flash.xml.bin bs=1 seek=65520 count=1 conv=notrunc
+1+0 records in
+1+0 records out
+1 byte copied, 4.7859e-05 s, 20.9 kB/s
+assign_value: crc-flash.xml.bin 0 65521 1
+printf '\x0' | dd of=crc-flash.xml.bin bs=1 seek=65521 count=1 conv=notrunc
+1+0 records in
+1+0 records out
+1 byte copied, 3.8106e-05 s, 26.2 kB/s
+assign_string: crc-flash.xml.bin PTHD 65528 4
+echo PTHD | dd of=crc-flash.xml.bin bs=1 seek=65528 count=4 conv=notrunc
+4+0 records in
+4+0 records out
+4 bytes copied, 8.2635e-05 s, 48.4 kB/s
+*** Flashing target device started. ***
+Welcome to Tegra Flash
+version 1.0.0
+Type ? or help for help and q or quit to exit
+Use ! to execute system commands
+ 
+[   0.0016 ] tegrasign --getmode mode.txt --key None
+[   0.0028 ] Assuming zero filled SBK key
+[   0.0040 ] 
+[   0.0042 ] Generating RCM messages
+[   0.0068 ] tegrarcm --listrcm rcm_list.xml --chip 0x21 0 --download rcm nvtboot_recovery.bin 0 0
+[   0.0077 ] RCM 0 is saved as rcm_0.rcm
+[   0.0092 ] RCM 1 is saved as rcm_1.rcm
+[   0.0093 ] List of rcm files are saved in rcm_list.xml
+[   0.0093 ] 
+[   0.0094 ] Signing RCM messages
+[   0.0114 ] tegrasign --key None --list rcm_list.xml --pubkeyhash pub_key.key
+[   0.0123 ] Assuming zero filled SBK key
+[   0.0168 ] 
+[   0.0169 ] Copying signature to RCM mesages
+[   0.0192 ] tegrarcm --chip 0x21 0 --updatesig rcm_list_signed.xml
+[   0.0205 ] 
+[   0.0206 ] Parsing partition layout
+[   0.0228 ] tegraparser --pt flash.xml.tmp
+[   0.0239 ] 
+[   0.0241 ] Using default ramcode: 0
+[   0.0241 ] Disable BPMP dtb trim, using default dtb
+[   0.0241 ] 
+[   0.0241 ] Creating list of images to be signed
+[   0.0262 ] tegrahost --chip 0x21 0 --partitionlayout flash.xml.bin --list images_list.xml
+[   0.0311 ] 
+[   0.0312 ] Generating signatures
+[   0.0336 ] tegrasign --key None --list images_list.xml --pubkeyhash pub_key.key
+[   0.0345 ] Assuming zero filled SBK key
+[   0.0802 ] 
+[   0.0802 ] Generating br-bct
+[   0.0828 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.cfg --chip 0x21 0
+[   0.0883 ] 
+[   0.0883 ] Updating boot device parameters
+[   0.0904 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.bct --chip 0x21 0 --updatedevparam flash.xml.bin
+[   0.0915 ] Warning: No sdram params
+[   0.0917 ] 
+[   0.0917 ] Updating bl info
+[   0.0941 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.bct --chip 0x21 0 --updateblinfo flash.xml.bin --updatesig images_list_signed.xml
+[   0.0957 ] 
+[   0.0957 ] Updating secondary storage information into bct
+[   0.0978 ] tegraparser --pt flash.xml.bin --chip 0x21 0 --updatecustinfo P3448_A00_lpddr4_204Mhz_P987.bct
+[   0.0988 ] 
+[   0.0988 ] Updating Odmdata
+[   0.1009 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.bct --chip 0x21 0 --updatefields Odmdata =0xa4000
+[   0.1017 ] Warning: No sdram params
+[   0.1018 ] 
+[   0.1019 ] Get Signed section of bct
+[   0.1040 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.bct --chip 0x21 0 --listbct bct_list.xml
+[   0.1049 ] 
+[   0.1050 ] Signing BCT
+[   0.1092 ] tegrasign --key None --list bct_list.xml --pubkeyhash pub_key.key
+[   0.1099 ] Assuming zero filled SBK key
+[   0.1104 ] 
+[   0.1104 ] Updating BCT with signature
+[   0.1124 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.bct --chip 0x21 0 --updatesig bct_list_signed.xml
+[   0.1134 ] 
+[   0.1134 ] Copying signatures
+[   0.1155 ] tegrahost --chip 0x21 0 --partitionlayout flash.xml.bin --updatesig images_list_signed.xml
+[   0.1194 ] 
+[   0.1194 ] Updating BFS information on BCT
+[   0.1219 ] tegrabct --bct P3448_A00_lpddr4_204Mhz_P987.bct --chip 0x21 0 --updatebfsinfo flash.xml.bin
+[   0.1231 ] 
+[   0.1232 ] Boot Rom communication
+[   0.1257 ] tegrarcm --chip 0x21 0 --rcm rcm_list_signed.xml
+[   0.1293 ] BR_CID: 0x32101001643d7645000000000f040140
+[   0.1607 ] RCM version 0X210001
+[   0.2030 ] Boot Rom communication completed
+[   1.2112 ] 
+[   1.2114 ] Sending BCTs
+[   1.2166 ] tegrarcm --download bct P3448_A00_lpddr4_204Mhz_P987.bct
+[   1.2198 ] Applet version 00.01.0000
+[   1.2973 ] Sending bct
+[   1.2978 ] [................................................] 100%
+[   1.5203 ] 
+[   1.5257 ] tegrahost --chip 0x21 --align cboot.bin
+[   1.5293 ] 
+[   1.5346 ] tegrahost --magicid EBT --appendsigheader cboot.bin cboot.bin_blheader
+[   1.5423 ] 
+[   1.5447 ] tegrasign --key None --list cboot.bin_list.xml
+[   1.5456 ] Assuming zero filled SBK key
+[   1.5562 ] 
+[   1.5587 ] tegrahost --updatesigheader cboot.bin_blheader.encrypt cboot.bin_blheader.hash zerosbk
+[   1.5603 ] 
+[   1.5636 ] tegrahost --chip 0x21 --align tegra210-p3448-0000-p3449-0000-b00.dtb
+[   1.5647 ] 
+[   1.5668 ] tegrahost --magicid DTB --appendsigheader tegra210-p3448-0000-p3449-0000-b00.dtb tegra210-p3448-0000-p3449-0000-b00.dtb_blheader
+[   1.5685 ] 
+[   1.5707 ] tegrasign --key None --list tegra210-p3448-0000-p3449-0000-b00.dtb_list.xml
+[   1.5715 ] Assuming zero filled SBK key
+[   1.5768 ] 
+[   1.5792 ] tegrahost --updatesigheader tegra210-p3448-0000-p3449-0000-b00.dtb_blheader.encrypt tegra210-p3448-0000-p3449-0000-b00.dtb_blheader.hash zerosbk
+[   1.5808 ] 
+[   1.5814 ] Sending bootloader and pre-requisite binaries
+[   1.5839 ] tegrarcm --download ebt cboot.bin.encrypt 0 0 --download rp1 tegra210-p3448-0000-p3449-0000-b00.dtb.encrypt 0
+[   1.5849 ] Applet version 00.01.0000
+[   1.6612 ] Sending ebt
+[   1.6613 ] [................................................] 100%
+[   1.7682 ] Sending rp1
+[   1.7727 ] [................................................] 100%
+[   1.8291 ] 
+[   1.8346 ] tegrarcm --boot recovery
+[   1.8379 ] Applet version 00.01.0000
+[   1.9180 ] 
+[   1.9182 ] Retrieving storage infomation
+[   1.9236 ] tegrarcm --oem platformdetails storage storage_info.bin
+[   1.9271 ] Applet is not running on device. Continue with Bootloader
+[   2.7546 ] 
+[   2.7624 ] tegradevflash --oem platformdetails storage storage_info.bin
+[   2.7660 ] Cboot version 00.01.0000
+[   2.7962 ] Saved platform info in storage_info.bin
+[   2.7974 ] 
+[   2.7974 ] Flashing the device
+[   2.8002 ] tegradevflash --pt flash.xml.bin --storageinfo storage_info.bin --create
+[   2.8017 ] Cboot version 00.01.0000
+[   2.8523 ] Writing partition GPT with gpt.bin
+[   2.8526 ] [................................................] 100%
+[   2.8584 ] Writing partition PT with crc-flash.xml.bin
+[  11.7330 ] [................................................] 100%
+[  11.7407 ] Writing partition NVC with nvtboot.bin.encrypt
+[  15.6507 ] [................................................] 100%
+[  15.6645 ] Writing partition NVC_R with nvtboot.bin.encrypt
+[  25.6772 ] [................................................] 100%
+[  25.6929 ] Writing partition TBC with nvtboot_cpu.bin.encrypt
+[  35.7172 ] [................................................] 100%
+[  35.7302 ] Writing partition RP1 with kernel_tegra210-p3448-0000-p3449-0000-b00.dtb.encrypt
+[  40.6293 ] [................................................] 100%
+[  40.6464 ] Writing partition EBT with cboot.bin.encrypt
+[  55.0626 ] [................................................] 100%
+[  55.0932 ] Writing partition WB0 with warmboot.bin.encrypt
+[  84.1498 ] [................................................] 100%
+[  84.1614 ] Writing partition BPF with sc7entry-firmware.bin.encrypt
+[  84.4232 ] [................................................] 100%
+[  84.4352 ] Writing partition TOS with tos-mon-only.img.encrypt
+[  84.6983 ] [................................................] 100%
+[  84.7108 ] Writing partition DTB with kernel_tegra210-p3448-0000-p3449-0000-b00.dtb.encrypt
+[  88.1472 ] [................................................] 100%
+[  88.1647 ] Writing partition LNX with boot.img.encrypt
+[ 102.5806 ] [................................................] 100%
+[ 102.6095 ] Warning: EKS partition magic header mismatch!
+[ 142.4178 ] Writing partition EKS with eks.img
+[ 142.4192 ] [................................................] 100%
+[ 142.4284 ] Writing partition BMP with bmp.blob
+[ 142.6913 ] [................................................] 100%
+[ 142.7226 ] Writing partition RP4 with rp4.blob
+[ 151.7698 ] [................................................] 100%
+[ 151.8374 ] Writing partition VER_b with qspi_bootblob_ver.txt
+[ 159.6650 ] [................................................] 100%
+[ 159.7484 ] Writing partition VER with qspi_bootblob_ver.txt
+[ 160.0128 ] [................................................] 100%
+[ 160.0243 ] Writing partition APP with system.img
+[ 160.2868 ] [................................................] 100%
+[ 766.3308 ] 
+[ 766.3731 ] tegradevflash --write BCT P3448_A00_lpddr4_204Mhz_P987.bct
+[ 766.3741 ] Cboot version 00.01.0000
+[ 766.4040 ] Writing partition BCT with P3448_A00_lpddr4_204Mhz_P987.bct
+[ 766.4047 ] [................................................] 100%
+[ 773.0507 ] 
+[ 773.0509 ] Flashing completed
+
+[ 773.0511 ] Coldbooting the device
+[ 773.0563 ] tegradevflash --reboot coldboot
+[ 773.0596 ] Cboot version 00.01.0000
+[ 773.0884 ] 
+*** The target t210ref has been flashed successfully. ***
+Reset the board to boot from internal eMMC.
