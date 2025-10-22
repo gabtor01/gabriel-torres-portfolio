@@ -20,7 +20,7 @@ Bring-up and kernel rebuild process for the **NVIDIA Jetson Nano 4GB Developer K
 ## Key Commands
 **Flash OS:** `sdkmanager --cli install --logintype devzone --product Jetson --version 4.6.6 --targetos Linux --target JETSON_NANO_TARGETS --flash all --license accept`  
 **Build Kernel:** `make ARCH=arm64 O=build LOCALVERSION=-tegra CROSS_COMPILE=aarch64-linux-gnu- tegra_defconfig && make ARCH=arm64 O=build LOCALVERSION=-tegra CROSS_COMPILE=aarch64-linux-gnu- -j$(nproc) Image modules dtbs`  
-**Flash Custom Kernel:** `sudo ./flash.sh jetson-nano-4gb-devkit mmcblk0p1`
+**Flash Custom Kernel:** `sudo ./flash.sh jetson-nano-devkit mmcblk0p1`
 ## Structure
 `jetson-nano-build-and-flash/`  
 ├── `scripts/` – Flashing and build automation  
