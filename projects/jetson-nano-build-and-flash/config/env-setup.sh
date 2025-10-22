@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
+# --------------------------------------------------------------------------------
+#                          - Enviroment Variables Setup -
+# Description:
+#
+# Define and export $L4T variable to facilitate navigation, $TOOLCHAIN_PREFIX to 
+# facilitate the compilation make and sets the output dirs.
+# --------------------------------------------------------------------------------
 
 # Base L4T path
 export L4T=${L4T:-/home/nvidia/nvidia/nvidia_sdk/JetPack_4.6.6_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra}

@@ -1,5 +1,11 @@
 #!/bin/bash
-# Script to automatically detect the correct DTB based on the board model and show the kernel build date
+# --------------------------------------------------------------------------------
+#                  - Identify Jetson Nano DTB and Kernel Build) -
+# Description:
+#
+# Scans /boot for DTBs, selects the one matching the Jetson Nano Developer Kit 
+# model via dtc, and prints the DTB filename, model, and kernel build date.
+# --------------------------------------------------------------------------------
 
 # Expected board model (according to the jetson 4 GB dev kit documentation)
 TARGET_MODEL="NVIDIA Jetson Nano Developer Kit" 

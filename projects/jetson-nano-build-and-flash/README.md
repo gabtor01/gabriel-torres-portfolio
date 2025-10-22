@@ -32,7 +32,7 @@ Bring-up and kernel rebuild process for the **NVIDIA Jetson Nano 4GB Developer K
 |-------|----------|---------|
 | Kernel version | `uname -a` | Linux tegra 4.9.337-tegra |
 | Device detection | `lsusb` | NVIDIA Corp. APX (recovery) |
-| Driver status | `dmesg \| grep 219` | IMX219 camera module disabled |
+| Driver status | `dmesg \| grep 219` | IMX219 camera module state |
 ## Tags
 `embedded-linux` • `jetson-nano` • `kernel-build` • `sdkmanager` • `cross-compilation` • `uart` • `docker`  
 **Status:** In Progress

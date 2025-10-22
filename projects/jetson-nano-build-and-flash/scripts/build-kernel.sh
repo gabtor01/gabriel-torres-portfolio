@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
-# Handle environment variables
+# --------------------------------------------------------------------------------
+#                  - Build Kernel 4.9, DTBs and Modules - 
+# Description:
+#
+# Creates output dirs, runs tegra_defconfig, compiles Image, DTBs and modules with
+# the cross-compiler and installs modules to the specified output path.
+# --------------------------------------------------------------------------------
+
 # source ../config/env-setup.sh
-# Alternatively they can be added to bashrc instead of using source in every build with the command:
+# Alternatively enviroment variables can be added to bashrc instead of using source in every build with the command:
 # grep -qxF "source $HOME/config/env-setup.sh" ~/.bashrc || echo "source $HOME/config/env-setup.sh" >> ~/.bashrc
 
 mkdir -p "$TEGRA_KERNEL_OUT" "$TEGRA_MODULES_OUT"

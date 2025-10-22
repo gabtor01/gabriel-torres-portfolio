@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
+# --------------------------------------------------------------------------------
+#                   - Backup, Kernel Update and Flash -
+# Description:
+#
+# Backup kernel and rootfs/lib, copy Image, DTB and modules to rootfs, and flash 
+# the card in recovery mode.
+# --------------------------------------------------------------------------------
+
 # backups
 cd "$L4T"
 cp -rf kernel kernel_backup
