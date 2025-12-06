@@ -22,6 +22,8 @@ body {
     background-color: var(--color-background);
     color: var(--color-text-light);
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 .section-title {
@@ -40,7 +42,7 @@ h1, h2, h3 {
 a { 
     text-decoration: none; 
     color: var(--color-link); 
-    transition: opacity 0.3s; 
+    transition: opacity 0.3s;
 }
 
 a:hover { 
@@ -79,9 +81,10 @@ a:hover {
 }
 
 .role { 
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #6E6E73; 
-    margin-bottom: 15px; 
+    margin-bottom: 20px;
+    white-space: nowrap; 
 }
 
 /* ABOUT */
@@ -101,9 +104,9 @@ a:hover {
 }
 
 .about-description {
-    font-size: 1.3em; 
+    font-size: 1.35em; 
     color: #6E6E73; 
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     text-align: justify;
 }
 
@@ -112,6 +115,7 @@ a:hover {
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .skill-chip {
@@ -140,13 +144,13 @@ a:hover {
 
 .projects-section {
     width: 100vw;
+    height: 105vh;
     background-color: var(--color-projects-bg);
-    padding: 60px 0;
+    padding: 100px 0px;
+    box-sizing: border-box;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-    
-    
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);  
 }
 
 .projects-carousel-wrapper {
@@ -156,7 +160,7 @@ a:hover {
 
 .projects-carousel {
     display: flex;
-    gap: 35px;
+    gap: 56px;
     overflow-x: hidden; /* hide scrollbar */
     
     -webkit-overflow-scrolling: touch;
@@ -165,8 +169,8 @@ a:hover {
 }
 
 .project-card {
-    flex: 0 0 400px;
-    max-width: 400px;
+    flex: 0 0 415px;
+    max-width: 415px;
     background: var(--color-projects-card);
     color: white;
     padding: 24px;
@@ -191,16 +195,24 @@ a:hover {
 }
 
 .project-title { 
-    font-size: 1.2rem; 
+    font-size: 1.4rem; 
     margin-bottom: 6px; 
     font-weight: 600;
     color: white; 
 }
 
+.project-description {
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
 .project-tech { 
     color: #A8A8AA; 
-    font-size: 0.9rem; 
+    font-size: 1.1rem; 
     margin-bottom: 10px; 
+    text-align: justify;
 }
 
 .project-link {
@@ -208,9 +220,11 @@ a:hover {
     display: inline-block;
     background: var(--color-accent);
     color: #fff;
-    padding: 10px 14px;
+    padding: 10px 15px;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 900;
+    text-align: center;
+
 }
 
 .carousel-buttons-below {
@@ -229,7 +243,7 @@ a:hover {
     border: none;
     background: var(--color-projects-card);
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -240,6 +254,17 @@ a:hover {
 .carousel-btn:hover {
     background: #28282c;
     transform: scale(1.06);
+}
+
+.carousel-btn:disabled {
+    cursor: default;
+    opacity: 0.5;      
+    transform: none;  
+}
+
+.carousel-btn:disabled:hover {
+    background: var(--color-projects-card);
+    transform: none;
 }
 
 /* CONTACT */
@@ -255,7 +280,7 @@ a:hover {
 }
 
 .contact-label {
-    font-size: 1.3em;
+    font-size: 1.35em;
 }
 
 .contact-link {

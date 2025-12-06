@@ -70,7 +70,7 @@
                 <article class="project-card">
                     <img src="assets/projects/pokemon-picture.png" class="project-image">
                     <h3 class="project-title">Pokemon Battle Simulator</h3>
-                    <p style="text-align: justify;">Turn-based battle simulator. 
+                    <p class="project-description">Turn-based battle simulator. 
                         Implements object-oriented design for creatures, moves, and combat flow. 
                         Designed to run in the command line with modular, extensible 
                         architecture.</p>
@@ -81,7 +81,7 @@
                 <article class="project-card">
                     <img src="assets/projects/tetris-picture.png" class="project-image">
                     <h3 class="project-title">Tetris</h3>
-                    <p style="text-align: justify;">Terminal-based Tetris built from scratch, 
+                    <p class="project-description">Bring-up and kernel rebuild process for the Terminal-based Tetris built from scratch, 
                         featuring piece rotation, collision detection, and line-clearing logic. 
                         Structured with clean OOP principles for readability and modularity.</p>
                     <p class="project-tech">Java • OOP • Collision Handling • Git</p>
@@ -91,7 +91,7 @@
                 <article class="project-card">
                     <img src="assets/projects/developer-board-picture.jpg" class="project-image">
                     <h3 class="project-title">Jetson Nano Build & Flash</h3>
-                    <p style="text-align: justify;">Bring-up and kernel rebuild process for the 
+                    <p class="project-description">Bring-up and kernel rebuild process for the 
                         NVIDIA Jetson Nano 4GB Developer Kit using SDK Manager, Docker and 
                         cross-compilation with the Linaro GCC toolchain.</p>
                     <p class="project-tech">Embedded Linux • NVIDIA SDK Manager • Docker 
@@ -102,7 +102,7 @@
                 <article class="project-card">
                     <img src="assets/projects//integrated-camera-picture.jpg" class="project-image">
                     <h3 class="project-title">IMX219 Driver Integration</h3>
-                    <p style="text-align: justify;">Development and testing of the Sony 
+                    <p class="project-description">Development and testing of the Sony 
                         IMX219-77 8MP camera on the NVIDIA Jetson Nano, featuring I2C bus 
                         verification, external kernel module compilation and GStreamer video 
                         pipeline validation.</p>
@@ -142,23 +142,38 @@
 
     <!-- CAROUSEL JS -->
     <script>
-        const carousel = document.querySelector('.projects-carousel');
-        const btnPrev = document.querySelector('.carousel-btn.prev');
-        const btnNext = document.querySelector('.carousel-btn.next');
+    const carousel = document.querySelector('.projects-carousel');
+    const btnPrev = document.querySelector('.carousel-btn.prev');
+    const btnNext = document.querySelector('.carousel-btn.next');
 
-        const scrollAmount = () => {
-            const card = carousel.querySelector('.project-card');
-            const gap = parseInt(getComputedStyle(carousel).gap) || 16;
-            return card.offsetWidth + gap;
+    const scrollAmount = () => carousel.clientWidth;
+
+    function updateButtons() {
+        if (carousel.scrollLeft > 0) {
+            btnPrev.disabled = false;
+        } else {
+            btnPrev.disabled = true;
         }
 
-        btnPrev.addEventListener('click', () => {
-            carousel.scrollBy({ left: -scrollAmount(), behavior: 'smooth' });
-        });
+        if (carousel.scrollLeft + carousel.clientWidth < carousel.scrollWidth - 1) {
+            btnNext.disabled = false;
+        } else {
+            btnNext.disabled = true;
+        }
+    }
 
-        btnNext.addEventListener('click', () => {
-            carousel.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
-        });
+    btnPrev.addEventListener('click', () => {
+        carousel.scrollBy({ left: -scrollAmount(), behavior: 'smooth' });
+        setTimeout(updateButtons, 300);
+    });
+
+    btnNext.addEventListener('click', () => {
+        carousel.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
+        setTimeout(updateButtons, 300);
+    });
+
+    updateButtons();
+    carousel.addEventListener('scroll', updateButtons);
     </script>
 
 </body>
