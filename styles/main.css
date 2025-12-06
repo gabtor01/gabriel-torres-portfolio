@@ -147,10 +147,9 @@ a:hover {
     height: 105vh;
     min-height: 100vh;
     background-color: var(--color-projects-bg);
-    padding: 100px 0px;
     box-sizing: border-box;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);  
 }
 
@@ -175,6 +174,7 @@ a:hover {
     background: var(--color-projects-card);
     color: white;
     padding: 24px;
+    margin-top: 90px;
     border-radius: 18px;
     scroll-snap-align: start;
     box-shadow: 0 12px 36px #161618;
