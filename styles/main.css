@@ -81,10 +81,10 @@ a:hover {
 }
 
 .role { 
-    font-size: 1.6em;
+    font-size: 1.49em;
+    font-weight: 500;
     color: #6E6E73; 
-    margin-bottom: 20px;
-    white-space: nowrap; 
+    margin-bottom: 20px; 
 }
 
 /* ABOUT */
@@ -145,11 +145,12 @@ a:hover {
 .projects-section {
     width: 100vw;
     height: 105vh;
+    min-height: 105vh;
     background-color: var(--color-projects-bg);
     padding: 100px 0px;
     box-sizing: border-box;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);  
 }
 
