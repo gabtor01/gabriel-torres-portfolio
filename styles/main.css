@@ -145,12 +145,12 @@ a:hover {
 .projects-section {
     width: 100vw;
     height: 105vh;
-    min-height: 105vh;
+    min-height: 100vh;
     background-color: var(--color-projects-bg);
     padding: 100px 0px;
     box-sizing: border-box;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);  
 }
 
