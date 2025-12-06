@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Gabriel Torres</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- HERO -->
+    <header id="profile" class="hero-section">
+        <div class="profile-info">
+            <h1 class="name">Gabriel Torres</h1>
+            <p class="role">Electrical Engineer & Computer Science Student</p>
+        </div>
+        <img src="assets/profile-picture.JPG" alt="Me" class="avatar">
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about-me" class="content-section">
+        <div class="about-card">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-description">
+            I am an Electrical Engineering graduate and Computer Science student interested 
+            in embedded systems and C/C++ development. I enjoy working with NVIDIA Jetson 
+            platforms, building perception and sensor-integration projects and learning 
+            how hardware and software interact in real applications.
+            </p>
+
+            <h2 class="section-title">Skills</h2>
+            <div class="abilities-card">
+                <div class="skill-chip skill-chip-java">
+                    <img src="assets/chip-icons/java.svg" alt="Java"> Java
+                </div>
+                <div class="skill-chip skill-chip-c">
+                    <img src="assets/chip-icons/c.svg" alt="C"> C
+                </div>
+                <div class="skill-chip skill-chip-cpp">
+                    <img src="assets/chip-icons/cpp.svg" alt="C++"> C++
+                </div>
+                <div class="skill-chip skill-chip-python">
+                    <img src="assets/chip-icons/python.svg" alt="Python"> Python
+                </div>
+                <div class="skill-chip skill-chip-docker">
+                    <img src="assets/chip-icons/docker.svg" alt="Docker"> Docker
+                </div>
+                <div class="skill-chip skill-chip-css">
+                    <img src="assets/chip-icons/css.svg" alt="CSS"> CSS
+                </div>
+                <div class="skill-chip skill-chip-html">
+                    <img src="assets/chip-icons/html.svg" alt="HTML"> HTML
+                </div>
+                <div class="skill-chip skill-chip-git">
+                    <img src="assets/chip-icons/git.svg" alt="Git"> Git
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS TITLE OUTSIDE BLOCK -->
+    <h2 class="projects-title">Projects</h2>
+
+    <!-- PROJECTS FULL-WIDTH DARK BLOCK -->
+    <section id="projects" class="projects-section">
+
+        <div class="projects-carousel-wrapper">
+            <div class="projects-carousel">
+
+                <article class="project-card">
+                    <img src="assets/projects/pokemon-picture.png" class="project-image">
+                    <h3 class="project-title">Pokemon Battle Simulator</h3>
+                    <p style="text-align: justify;">Turn-based battle simulator. 
+                        Implements object-oriented design for creatures, moves, and combat flow. 
+                        Designed to run in the command line with modular, extensible 
+                        architecture.</p>
+                    <p class="project-tech">Java • OOP • Encapsulation • Git</p>
+                    <a href="https://github.com/gabtor01/nullStackDevs-PH1/tree/main/pokemon" target="_blank" class="project-link">View Repository</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/projects/tetris-picture.png" class="project-image">
+                    <h3 class="project-title">Tetris</h3>
+                    <p style="text-align: justify;">Terminal-based Tetris built from scratch, 
+                        featuring piece rotation, collision detection, and line-clearing logic. 
+                        Structured with clean OOP principles for readability and modularity.</p>
+                    <p class="project-tech">Java • OOP • Collision Handling • Git</p>
+                    <a href="https://github.com/gabtor01/nullStackDevs-PH1/tree/main/tetris" target="_blank" class="project-link">View Repository</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/projects/developer-board-picture.jpg" class="project-image">
+                    <h3 class="project-title">Jetson Nano Build & Flash</h3>
+                    <p style="text-align: justify;">Bring-up and kernel rebuild process for the 
+                        NVIDIA Jetson Nano 4GB Developer Kit using SDK Manager, Docker and 
+                        cross-compilation with the Linaro GCC toolchain.</p>
+                    <p class="project-tech">Embedded Linux • NVIDIA SDK Manager • Docker 
+                        • GCC Linaro • UART Debugging</p>
+                    <a href="https://github.com/gabtor01/gabriel-torres-projects/tree/main/projects/jetson-nano-build-and-flash" target="_blank" class="project-link">View Repository</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/projects//integrated-camera-picture.jpg" class="project-image">
+                    <h3 class="project-title">IMX219 Driver Integration</h3>
+                    <p style="text-align: justify;">Development and testing of the Sony 
+                        IMX219-77 8MP camera on the NVIDIA Jetson Nano, featuring I2C bus 
+                        verification, external kernel module compilation and GStreamer video 
+                        pipeline validation.</p>
+                    <p class="project-tech">Embedded Linux • Jetson Nano • IMX219 • I2C Interface
+                         • Kernel Module • GStreamer Pipeline • C</p>
+                    <a href="https://github.com/gabtor01/gabriel-torres-projects/tree/main/projects/imx219-driver-integration" target="_blank" class="project-link">View Repository</a>
+                </article>
+
+            </div>
+
+            <div class="carousel-buttons-below">
+                <button class="carousel-btn prev">&lt;</button>
+                <button class="carousel-btn next">&gt;</button>
+            </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <footer id="contact" class="content-section">
+        <h2 class="section-title">Contact</h2>
+
+        <p class="contact-label">Email</p>
+        <a href="mailto:gabriel.torres.garbanzo@gmail.com" class="contact-link">
+            gabriel.torres.garbanzo@gmail.com
+        </a>
+
+        <p class="contact-label">Professional Network</p>
+        <a href="https://linkedin.com/in/gabriel-torres-garbanzo" target="_blank" class="contact-link">
+            LinkedIn
+        </a>
+
+        <p class="contact-label">Projects</p>
+        <a href="https://github.com/gabtor01/gabriel-torres-projects" target="_blank" class="contact-link">
+            GitHub
+        </a>
+    </footer>
+
+    <!-- CAROUSEL JS -->
+    <script>
+        const carousel = document.querySelector('.projects-carousel');
+        const btnPrev = document.querySelector('.carousel-btn.prev');
+        const btnNext = document.querySelector('.carousel-btn.next');
+
+        const scrollAmount = () => {
+            const card = carousel.querySelector('.project-card');
+            const gap = parseInt(getComputedStyle(carousel).gap) || 16;
+            return card.offsetWidth + gap;
+        }
+
+        btnPrev.addEventListener('click', () => {
+            carousel.scrollBy({ left: -scrollAmount(), behavior: 'smooth' });
+        });
+
+        btnNext.addEventListener('click', () => {
+            carousel.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
+        });
+    </script>
+
+</body>
+</html>
