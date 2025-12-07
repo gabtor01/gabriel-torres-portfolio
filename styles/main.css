@@ -119,7 +119,7 @@ a:hover {
 }
 
 .skill-chip {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 8px;
     background-color: var(--color-surface);
@@ -162,8 +162,7 @@ a:hover {
 .projects-carousel {
     display: flex;
     gap: 56px;
-    overflow-x: hidden; /* hide scrollbar */
-    
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     padding-left: 25%;
     padding-right: 25%;
@@ -226,7 +225,6 @@ a:hover {
     border-radius: 10px;
     font-weight: 900;
     text-align: center;
-
 }
 
 .carousel-buttons-below {
@@ -291,30 +289,126 @@ a:hover {
     margin-bottom: 10px;
 }
 
-/* RESPONSIVE */
+/* MOBILE */
 @media (max-width: 768px) {
+    .profile-info {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .hero-section { 
         flex-direction: column; 
         text-align: center; 
         padding: 40px 5%; 
     }
+
     .avatar { 
         width: 150px; 
         height: 150px; 
         margin-top: 20px; 
     }
+
+    .mobile-break {
+        display: block;   
+    }
+
+    .name {
+        white-space: nowrap;
+        font-size: 2.2em; 
+        line-height: 1.1;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .role {
+        font-size: 1.3em;
+        line-height: 1.25;
+        
+    }
+
+    .content-section { 
+        padding: 40px 5%; 
+        margin: 20px auto;
+    }
+
+    .about-card {
+        padding: 40px 6%;
+        border-radius: 14px;
+    }
+
+    .about-description {
+        font-size: 1.17em;
+        margin-bottom: 30px;
+        text-align: center; 
+        line-height: 1.5;
+    }
+
+    .skill-chip {
+        flex: 1 1 calc(50% - 12px); 
+        justify-content: center;
+    }
+
+    .projects-title {
+        font-size: 2em;
+        margin: 20px auto;
+    }
+
     .projects-section {
-        min-height: calc(100vh - 72px);
-        padding: 36px 3%;
+        padding: 40px 0;
     }
-    .project-card { 
-        flex: 0 0 80%; 
-        max-width: 80%; 
+
+    .projects-carousel {
+        gap: 20px;
+        padding-left: 5%; 
+        padding-right: 5%;
+        overflow-x: scroll; 
     }
-    .project-image { 
-        height: 180px; 
+
+    .project-card {
+        flex: 0 0 85%;
+        max-width: 85%;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 16px;
     }
-    .carousel-buttons { 
-        display: none; 
+
+    .project-image {
+        height: 190px; 
+        margin-bottom: 20px;
+    }
+
+    .project-title {
+        font-size: 1.3rem;
+    }
+
+    .project-description {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .project-tech {
+        font-size: 0.95rem;
+        text-align: left;
+    }
+
+    .carousel-buttons-below {
+        display: none;
+    }
+
+    .contact-label {
+        font-size: 1.15em;
+    }
+
+    .contact-link {
+        font-size: 1.05em;
     }
 }
+
